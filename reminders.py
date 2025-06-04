@@ -43,9 +43,7 @@ def reminderLoop():
         
         time.sleep(60)
         
-if __name__ == "__main__":    
-    try:
-        reminderLoop()
-    except KeyboardInterrupt:
-        print("Reminder service stopped by user.")
+def startReminders():
+    Clock.schedule_interval(reminderLoop, 60)
+        
     
