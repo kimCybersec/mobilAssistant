@@ -59,8 +59,8 @@ class scheduleAssistantApp(App):
     def showSummary(self):
         showSummary()
         
-    if "__main__" == __name__:
-        scheduleAssistantApp().run()
+if "__main__" == __name__:
+    scheduleAssistantApp().run()
         
         
         
