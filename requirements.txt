@@ -1,0 +1,5 @@
+kivy == 2.2.0
+plyer == 3.5.0
+openai == 0.27.0
+requests == 2.31.0
+kivy_garden.mapview == 0.9.0
