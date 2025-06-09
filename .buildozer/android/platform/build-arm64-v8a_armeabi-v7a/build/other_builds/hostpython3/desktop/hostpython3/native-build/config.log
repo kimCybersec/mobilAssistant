@@ -28,6 +28,8 @@ uname -v = #1 SMP PREEMPT_DYNAMIC Kali 6.12.20-1kali1 (2025-03-26)
 /bin/universe          = unknown
 
 PATH: /home/kim/.buildozer/android/platform/apache-ant-1.9.4/bin
+PATH: /home/kim/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/zsh
+PATH: /home/kim/vsCode/personal/mobileAssistant/venv/bin
 PATH: /home/kim/.pyenv/shims
 PATH: /home/kim/.pyenv/bin
 PATH: /home/kim/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/zsh
@@ -62,7 +64,7 @@ configure:3285: result: ./_bootstrap_python
 configure:3317: checking for python3.11
 configure:3347: result: no
 configure:3317: checking for python3.10
-configure:3333: found /home/kim/.pyenv/shims/python3.10
+configure:3333: found /home/kim/vsCode/personal/mobileAssistant/venv/bin/python3.10
 configure:3344: result: python3.10
 configure:3358: checking Python for regen version
 configure:3361: result: Python 3.10.13
@@ -7269,7 +7271,7 @@ configure:12384: result: no
 Package 'libnsl', required by 'virtual:world', not found
 configure:12408: checking for library containing yp_match
 configure:12439: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccdqQBsU.o: in function `main':
+/usr/bin/ld: /tmp/cc1tZBgh.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `yp_match'
 collect2: error: ld returned 1 exit status
 configure:12439: $? = 1
@@ -9448,7 +9450,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for explicit_memset
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccXR9LEh.o: in function `main':
+/usr/bin/ld: /tmp/ccxpIlAV.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `explicit_memset'
 collect2: error: ld returned 1 exit status
 configure:15227: $? = 1
@@ -9686,7 +9688,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for fdwalk
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccqLy4se.o: in function `main':
+/usr/bin/ld: /tmp/cc6T2BeN.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `fdwalk'
 collect2: error: ld returned 1 exit status
 configure:15227: $? = 1
@@ -9917,7 +9919,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for fork1
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/cc3ovXc5.o: in function `main':
+/usr/bin/ld: /tmp/ccYGxHmD.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `fork1'
 collect2: error: ld returned 1 exit status
 configure:15227: $? = 1
@@ -10243,7 +10245,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for _getpty
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccmM2IAN.o: in function `main':
+/usr/bin/ld: /tmp/ccxHut82.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `_getpty'
 collect2: error: ld returned 1 exit status
 configure:15227: $? = 1
@@ -10535,7 +10537,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for getwd
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/cc3Zy2Ek.o: in function `main':
+/usr/bin/ld: /tmp/cceKfYuB.o: in function `main':
 conftest.c:(.text+0xa): warning: the `getwd' function is dangerous and should not be used.
 configure:15227: $? = 0
 configure:15227: result: yes
@@ -10649,7 +10651,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for plock
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/cceNSWTa.o: in function `main':
+/usr/bin/ld: /tmp/ccBMlFRH.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `plock'
 collect2: error: ld returned 1 exit status
 configure:15227: $? = 1
@@ -10972,7 +10974,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for pthread_init
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccr4ary3.o: in function `main':
+/usr/bin/ld: /tmp/ccTwaT1I.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `pthread_init'
 collect2: error: ld returned 1 exit status
 configure:15227: $? = 1
@@ -11304,7 +11306,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for rtpSpawn
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccY4m1h4.o: in function `main':
+/usr/bin/ld: /tmp/ccOoOduX.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `rtpSpawn'
 collect2: error: ld returned 1 exit status
 configure:15227: $? = 1
@@ -11813,7 +11815,7 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for tempnam
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccxtwNEX.o: in function `main':
+/usr/bin/ld: /tmp/ccgeffRx.o: in function `main':
 conftest.c:(.text+0xa): warning: the use of `tempnam' is dangerous, better use `mkstemp'
 configure:15227: $? = 0
 configure:15227: result: yes
@@ -11831,13 +11833,13 @@ configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for tmpnam
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccF0nwgn.o: in function `main':
+/usr/bin/ld: /tmp/ccDkVHB9.o: in function `main':
 conftest.c:(.text+0xa): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
 configure:15227: $? = 0
 configure:15227: result: yes
 configure:15227: checking for tmpnam_r
 configure:15227: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccDnxg5G.o: in function `main':
+/usr/bin/ld: /tmp/ccwoSrKu.o: in function `main':
 conftest.c:(.text+0xa): warning: the use of `tmpnam_r' is dangerous, better use `mkstemp'
 configure:15227: $? = 0
 configure:15227: result: yes
@@ -13904,7 +13906,7 @@ configure:17968: $? = 0
 configure:17968: result: yes
 configure:18068: checking for fseek64
 configure:18068: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccxDwTuS.o: in function `main':
+/usr/bin/ld: /tmp/ccVQoVb5.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `fseek64'
 collect2: error: ld returned 1 exit status
 configure:18068: $? = 1
@@ -14327,7 +14329,7 @@ configure:18068: $? = 0
 configure:18068: result: yes
 configure:18068: checking for ftell64
 configure:18068: gcc -o conftest    conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccZoIOhY.o: in function `main':
+/usr/bin/ld: /tmp/ccqYALv2.o: in function `main':
 conftest.c:(.text+0xa): undefined reference to `ftell64'
 collect2: error: ld returned 1 exit status
 configure:18068: $? = 1
